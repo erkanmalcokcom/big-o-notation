@@ -1,6 +1,8 @@
 # big-o-notation
 
-A mathematical notation that describes the limiting behaviour of a function when the argument tends towards a particular value or infinity. In computer science, it's used to classify algorithms according to how their run time or space requirements grow as the input size grows. Here's an explanation of each term in the cheat sheet:
+A mathematical notation that describes the limiting behaviour of a function when the argument tends towards a particular value or infinity. In computer science, it's used to classify algorithms according to how their run time or space requirements grow as the input size grows. 
+
+Here's an explanation of each term in the cheat sheet:
 
 1. **O(1) - Constant Time**: An algorithm is said to run in constant time if it requires the same amount of time regardless of the size of the input data. For example, accessing any single element in an array by index is an O(1) operation since it takes the same time no matter how large the array is.
 
@@ -20,15 +22,9 @@ A mathematical notation that describes the limiting behaviour of a function when
 
 The Big O notation, as you can see, is not just a mathematical concept but a practical tool that gives you a high-level understanding of the algorithm's efficiency. It's like a lens that helps you see how an algorithm's performance changes with the size of the input data. This understanding is crucial in determining the scalability of an algorithm or a piece of code. It's not just about theory, it's about real-world applications. It's essential for comparing the performance of different algorithms and for understanding the trade-offs between different approaches, especially when dealing with large data sets.
 
-# Big-O Cheat Sheet
+# Usage:
 
-| Big-O        | Name              | Description                                                                                   | Example                                 |
-|--------------|-------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------|
-| O(1)         | Constant Time     | Execution time remains unchanged irrespective of input data                                   | Checking if a stack is empty            |
-| O(log n)     | Logarithmic Time  | Complexity increases by one unit for each doubling of input data                              | Finding an item in a balanced search tree|
-| O(n)         | Linear Time       | Execution time increases linearly with the size of the input data                             | Linear traversal of a list              |
-| O(n log n)   | Log-Linear Time   | Complexity grows as a combination of linear and logarithmic                                   | Merge sort on a collection of items     |
-| O(n^2)       | Quadratic Time    | Time taken is proportional to the square of the number of elements                            | Checking all possible pairs in an array |
-| O(n^3)       | Cubic Time        | Execution time is proportional to the cube of the number of elements                         | Matrix multiplication of n x n matrices |
-| O(2^n)       | Exponential Time  | Time doubles for every new element added                                                     | Generating all subsets of a given set   |
-| O(n!)        | Factorial Time    | Complexity grows factorially based on the size of the dataset                                 | Determining all permutations of a given list |
+'''
+pip install streamlit
+streamlit run big_o_notation.py
+'''
