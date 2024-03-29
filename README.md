@@ -28,7 +28,7 @@ The Big O notation, as you can see, is not just a mathematical concept but a pra
 | O(log n)     | Logarithmic Time  | Complexity increases by one unit for each doubling of input data                              | Finding an item in a balanced search tree|
 | O(n)         | Linear Time       | Execution time increases linearly with the size of the input data                             | Linear traversal of a list              |
 | O(n log n)   | Log-Linear Time   | Complexity grows as a combination of linear and logarithmic                                   | Merge sort on a collection of items     |
-| O($$n^2$$)       | Quadratic Time    | Time taken is proportional to the square of the number of elements                            | Checking all possible pairs in an array |
+| O(n^2)       | Quadratic Time    | Time taken is proportional to the square of the number of elements                            | Checking all possible pairs in an array |
 | O(n^3)       | Cubic Time        | Execution time is proportional to the cube of the number of elements                         | Matrix multiplication of n x n matrices |
 | O(2^n)       | Exponential Time  | Time doubles for every new element added                                                     | Generating all subsets of a given set   |
 | O(n!)        | Factorial Time    | Complexity grows factorially based on the size of the dataset                                 | Determining all permutations of a given list |
