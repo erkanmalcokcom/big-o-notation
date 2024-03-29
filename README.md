@@ -26,8 +26,8 @@ The Big O notation, as you can see, is not just a mathematical concept but a pra
 
 '''
 
-pip install streamlit
+    pip install streamlit
 
-streamlit run hello.py
+    streamlit run hello.py
 
 '''
