@@ -31,6 +31,9 @@ plt.legend()
 plt.grid(True, which="both", ls="--")
 plt.show()
 
+# Save the plot
+plt.savefig('plot-big-o.jpg')
+
 '''
 O(1) - Constant Time: Remains constant regardless of n.
 
