@@ -1,6 +1,6 @@
 # big-o-notation
 
-The concept presented in the cheat sheet is related to Big O notation, a mathematical notation that describes the limiting behaviour of a function when the argument tends towards a particular value or infinity. In computer science, it's used to classify algorithms according to how their run time or space requirements grow as the input size grows. Here's an explanation of each term in the cheat sheet:
+A mathematical notation that describes the limiting behaviour of a function when the argument tends towards a particular value or infinity. In computer science, it's used to classify algorithms according to how their run time or space requirements grow as the input size grows. Here's an explanation of each term in the cheat sheet:
 
 1. **O(1) - Constant Time**: An algorithm is said to run in constant time if it requires the same amount of time regardless of the size of the input data. For example, accessing any single element in an array by index is an O(1) operation since it takes the same time no matter how large the array is.
 
